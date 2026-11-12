@@ -57,9 +57,20 @@ a:hover {
     color: #49372f;
 }
 
+
 footer {
-    background-color: #49372f;
+    background-color: #5C4033;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #F5DEB3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
 }
