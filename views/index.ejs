@@ -1,19 +1,138 @@
+<%- include('partials/header') %>
+<%- include('partials/main_nav') %>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title><%= title %> | Zunaira Faisal</title>
-</head>
-<body>
+<% if (title == "Home") { %>
+
+<main>
     <h1>Welcome to Zunaira Faisal's Portfolio!</h1>
 
-    <nav>
-        <a href="/">Home</a> |
-        <a href="/about">About Me</a> |
-        <a href="/projects">Projects</a> |
-        <a href="/contact">Contact Me</a>
-    </nav>
+    <h2>Networking and IT Security Student</h2>
 
-    <h2><%= title %></h2>
-</body>
-</html>
+    <p>
+        Hello! My name is Zunaira Faisal. I am a second-year
+        Networking and IT Security student at Ontario Tech University.
+    </p>
+
+    <p>
+        I am passionate about technology, networking, cybersecurity
+        and creative projects. This website showcases my background,
+        interests and work.
+    </p>
+
+    <p>
+        Welcome to my portfolio. Feel free to explore my projects
+        and learn more about me!
+    </p>
+
+    <p>
+        <a href="/about">Learn More About Me</a>
+    </p>
+
+    <p>
+        <a href="/projects">View My Projects</a>
+    </p>
+</main>
+
+<% } %>
+
+
+<% if (title == "About Me") { %>
+
+<main>
+    <h1>About Me</h1>
+
+    <h2>Getting to Know Me</h2>
+
+    <p>
+        My name is Zunaira Faisal, and I am currently studying
+        Networking and IT Security at Ontario Tech University.
+    </p>
+
+    <p>
+        I enjoy learning about technology, computer networks,
+        information security and how digital systems work.
+    </p>
+
+    <p>
+        Outside of my studies, I enjoy entrepreneurship,
+        creative projects and developing my own business ideas.
+    </p>
+
+    <h2>My Interests</h2>
+
+    <p>
+        Networking, Information Technology, Cybersecurity,
+        Entrepreneurship and Creative Design.
+    </p>
+</main>
+
+<% } %>
+
+
+<% if (title == "Projects") { %>
+
+<main>
+    <h1>My Projects</h1>
+
+    <p>Here are some of my projects and experiences.</p>
+
+    <h2>Project 1 - NFC Business</h2>
+
+    <p>
+        Created a NFC business that provides NFC business cards and NFC tags
+         for businesses and individuals.
+    </p>
+
+    <h2>Project 2 - Ezza Label</h2>
+
+    <p>
+        Developed a hijab business focused on printed jersey
+        hijabs, branding and presenting products online.
+    </p>
+
+    <h2>Project 3 - Online Reselling</h2>
+
+    <p>
+        Gained experience with online product reselling,
+        product presentation, sales and managing expenses.
+    </p>
+
+    <h2>Project 4 - HTML Portfolio</h2>
+
+    <p>
+        Created a personal/professional profolio using HTML and CSS styling.
+    </p>
+
+</main>
+
+<% } %>
+
+
+<% if (title == "Contact Me") { %>
+
+<main>
+    <h1>Contact Me</h1>
+
+    <h2>Let's Connect!</h2>
+
+    <p>
+        Thank you for visiting my portfolio.
+        Feel free to connect with me through LinkedIn
+        or explore my projects on GitHub.
+    </p>
+
+    <p>
+        <a href="https://www.linkedin.com/in/zunairafaisal/">
+            Visit My LinkedIn
+        </a>
+    </p>
+
+    <p>
+        <a href="https://github.com/zunairafaisal-sudo">
+            Visit My GitHub
+        </a>
+    </p>
+</main>
+
+<% } %>
+<%- include('partials/footer') %>
