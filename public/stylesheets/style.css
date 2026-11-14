@@ -66,6 +66,27 @@ footer {
     margin-top: 40px;
 }
 
+
+.profile-image img {
+    width: 40%;
+    max-width: 220px;
+    height: auto;
+    border: 5px solid #E9DDCC;
+}
+
+
+.project-image {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+.project-image img {
+    width: 300px;
+    height: 200px;
+}
+
 footer a {
     color: #F5DEB3;
     text-decoration: none;
@@ -74,3 +95,4 @@ footer a {
 footer a:hover {
     color: white;
 }
+
