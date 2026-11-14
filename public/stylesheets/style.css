@@ -1,4 +1,4 @@
-
+/*body styles*/
 body {
     background-color: #f5eee6;
     color: #44352d;
@@ -7,25 +7,31 @@ body {
     padding: 0;
 }
 
+/*navbar styles*/
 nav.navbar {
     background-color: #49372f;
     padding: 15px;
 }
 
+/*navbar brand styles*/
 .navbar-brand {
     color: #ffffff;
     font-size: 24px;
 }
 
+/*navbar link styles*/
 .nav-link {
     color: #ffffff;
     padding: 10px;
 }
 
+/*navbar link hover styles*/
 .nav-link:hover {
     color: #d8b99b;
 }
 
+
+/*main content styles*/
 main {
     background-color: #ffffff;
     margin: 30px auto;
@@ -34,6 +40,7 @@ main {
     border-radius: 10px;
 }
 
+/*heading styles*/
 h1 {
     color: #674b3c;
     margin-bottom: 20px;
@@ -44,11 +51,14 @@ h2 {
     margin-top: 20px;
 }
 
+/*paragraph styles*/
 p {
     font-size: 16px;
     line-height: 1.7;
 }
 
+
+/*link styles*/
 a {
     color: #8b6045;
 }
@@ -58,6 +68,7 @@ a:hover {
 }
 
 
+/*footer styles*/
 footer {
     background-color: #5C4033;
     color: white;
@@ -67,6 +78,8 @@ footer {
 }
 
 
+
+/*profile image styles*/
 .profile-image img {
     width: 40%;
     max-width: 220px;
@@ -75,23 +88,28 @@ footer {
 }
 
 
+/*project image styles*/
 .project-image {
     width: 300px;
     height: 200px;
     margin-bottom: 20px;
 }
 
-
+/*project image styles for img tag*/
 .project-image img {
     width: 300px;
     height: 200px;
 }
 
+
+/*footer link styles*/
 footer a {
     color: #F5DEB3;
     text-decoration: none;
 }
 
+
+/*footer link hover styles*/
 footer a:hover {
     color: white;
 }
