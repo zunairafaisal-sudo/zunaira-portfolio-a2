@@ -39,3 +39,22 @@ zunaira-portfolio-a2/
    -->stylesheet/
 --> package.json
 -->README.md
+
+
+
+**Routes:**
+The website uses Express routes defined in routes/index.js.
+
+Page:          Route:
+Home           /
+About me       /about
+Projects       /projects
+Contact Me     /contact
+
+
+**External Resources and References:**
+1. Font Awesome documentation: https://fontawesome.com/
+2. Deployment: https://render.com/
+
+
+**Repository:**
