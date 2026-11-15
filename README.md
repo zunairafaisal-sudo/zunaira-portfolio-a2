@@ -58,3 +58,7 @@ Contact Me     /contact
 
 
 **Repository:**
+https://github.com/zunairafaisal-sudo/zunaira-portfolio-a2
+
+Deployed Render link:
+https://zunaira-portfolio-a2-updated.onrender.com/
