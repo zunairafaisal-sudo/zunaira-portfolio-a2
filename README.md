@@ -11,7 +11,7 @@ The portfolio includes four main pages:
 4. Contact Me: Provides contact information.
 
 
-Technologies Used:
+**Technologies Used:**
 1. Node.js
 2. Express.js
 3. EJS
@@ -22,5 +22,20 @@ Technologies Used:
 8. Git and Github
    
 
-
-
+**Project Structure:**
+zunaira-portfolio-a2/
+--> app.js
+--> bin/
+--> route/
+   --> index.js
+   --> user.js
+--> views/
+   --> partials/
+   --> index.ejs
+   --> error.ejs
+--> Public/
+   -->images/
+   --> javascript/
+   -->stylesheet/
+--> package.json
+-->README.md
